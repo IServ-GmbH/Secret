@@ -16,27 +16,17 @@
             "role": "lead"
         }
     ],
-    "version": "2.0.7",
+    "version": "103",
     "time": "2017-11-11",
-    "repositories": [
-        {
-            "type": "pear",
-            "url": "https://pear.horde.org"
-        }
-    ],
     "require": {
-        "php": "^5.3 || ^7",
-        "pear-pear.horde.org/Horde_Crypt_Blowfish": "^1",
-        "pear-pear.horde.org/Horde_Exception": "^2",
-        "pear-pear.horde.org/Horde_Support": "^2",
-        "ext-hash": "*"
+        "php": ">=7.3",
+        "ext-hash": "*",
+        "horde/crypt-blowfish": "103",
+        "horde/exception": "103",
+        "horde/support": "103"
     },
     "suggest": {
-        "pear-pear.horde.org/Horde_Test": "^2.1"
-    },
-    "replace": {
-        "pear-pear.horde.org/Horde_Secret": "2.*",
-        "pear-horde/Horde_Secret": "2.*"
+        "horde/test": "^2.1"
     },
     "autoload": {
         "psr-0": {
