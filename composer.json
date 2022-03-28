@@ -16,14 +16,12 @@
             "role": "lead"
         }
     ],
-    "version": "103",
-    "time": "2017-11-11",
     "require": {
         "php": ">=7.3",
         "ext-hash": "*",
-        "horde/crypt-blowfish": "103",
-        "horde/exception": "103",
-        "horde/support": "103"
+        "horde/crypt-blowfish": ">=106",
+        "horde/exception": ">=106",
+        "horde/support": ">=106"
     },
     "suggest": {
         "horde/test": "^2.1"
